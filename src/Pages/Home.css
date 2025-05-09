@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+.hero1 {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hero1 .image img {
+    width: 110%;
+    display: block;
+    transform: translateX(-5%);
+  }
+  
+  .hero1 .text {
+    font-family: "Sansation", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    font-style: normal;
+    position: absolute;
+    top: 45%;  
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: #002d5b;
+    text-align: center;
+    z-index: 1;
+  }
+  .text2{
+    font-size: 18px;
+    line-height: 50px;
+    color: #464d65;
+    margin-bottom: 42px;
+  }
+  .donates {
+    font-size: 15px;    
+    font-family: "Sansation", sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+    color: white;        
+    background-color: red; 
+    padding: 18px 60px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .donates:hover{
+    background-color: darkred;
+  }
+  .mission {
+    background: rgb(248, 252, 255);
+    padding: 100px 150px;
+    justify-items: center;
+  }
+  
+  .boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 30px 0;
+  }
+  
+  .box1, .box2, .box3 {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    width: 350px;
+    height: 420px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 30px  rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 23px;
+  }
+  .box2{
+    background: rgb(9, 204, 127);
+    color: white;
+  }
+  
+  .text3{
+    font-family: "Sansation", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 22px;
+    color: rgb(9, 204, 127);
+    text-transform: capitalize;
+    display: inline-block;
+    letter-spacing: 0.05em;
+  }
+  .text4{
+    font-family: "Sansation", sans-serif;
+    font-size: 42px;
+    display: block;
+    color: rgb(7, 35, 102);
+    font-weight: 800;
+    text-transform: capitalize;
+    line-height: 1.4;
+    margin-top: 20px;
+  }
+  .water{
+    font-size: 25px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(7, 35, 102);
+    margin-bottom: 22px;
+  }
+  .service{
+    font-family: "Mulish", sans-serif;
+    font-weight: 500;
+    color: rgb(70, 77, 101);
+    font-size: 18px;
+  }
+  .box1:hover, .box3:hover{
+    transform: translateY(-10px);
+    background: rgb(9, 204, 127);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .about{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 150px;
+    gap: 250px;
+  }
+  .about span{
+    font-size: 22px;
+    font-family: "Sansation", sans-serif;
+    font-weight: 700;
+    color: rgb(9, 204, 127);
+  }
+  .about h2{
+    font-family: "Sansation", sans-serif;
+    font-weight: 700;
+    color: rgb(7, 35, 102);
+    font-size: 30px;
+    margin-top: 32px;
+  }
+  .about p{
+    font-family: "Sansation", sans-serif;
+    font-weight: 500;
+    color: rgb(70, 77, 101);
+    font-size: 20px;
+    margin-top: 32px;
+  }
+  .about button{
+    font-size: 18px;    
+    font-family: "Sansation", sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+    color: white;        
+    background-color: rgb(9, 204, 127);
+    padding: 20px 60px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    margin-top: 32px;
+  }
+  .cause {
+    background: rgb(248, 252, 255);
+    padding: 100px 150px;
+    justify-items: center;
+  }
+  .causes{
+    justify-items: center;
+  }
+  .cause span{
+    font-family: "Sansation", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 22px;
+    color: rgb(9, 204, 127);
+  }
+  .cause h2{
+    font-family: "Mulish", sans-serif;
+    font-size: 42px;
+    color: rgb(7, 35, 102);
+    font-weight: 800;
+    margin-top: 20px;
+  }
+  .divider{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0px 0;
+  }
+  .divider1, .divider2, .divider3 {
+    flex: 1;
+    background: white;
+    width: 360px;
+    height: 415px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    box-shadow: 0px 0px 10px 20px rgba(0,0,0,0.05);
+  }
+  .cause h1{
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    color: rgb(7, 35, 102);
+    font-weight: 800;
+    padding: 4px 2px;
+  }
+  .price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+    gap: 50px;
+  }
+  .cause, .price p{
+    font-family: "Mulish", sans-serif;
+    font-size: 15px;
+    color: rgb(7, 35, 102);
+    font-weight: 800;
+  }
+  .progress-container {
+    width: 90%;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    height: 20px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    border-radius: 20px;
+    background-color: #09cc7f;
+    width: 70%;
+    transition: width 0.5s ease-in-out;
+  }
+  .cause img{
+    height: 255px;
+  }
+
+  /* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .mission, .about, .cause {
+    padding: 60px 50px;
+  }
+
+  .boxes, .divider {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box1, .box2, .box3 {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .about {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .hero1 .text {
+    left: 30%;
+    font-size: 18px;
+  }
+
+  .text2 {
+    line-height: 20px;
+    font-size: 13px;
+  }
+}
+
+/* Mobile (max-width: 600px) */
+@media (max-width: 600px) {
+  .hero1 .text {
+    font-size: 14px;
+    top: 60%;
+    left: 20%;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+
+  .text2 {
+    font-size: 11px;
+    line-height: 12px;
+  }
+
+  .donates {
+    padding: 12px 30px;
+    font-size: 14px;
+  }
+
+  .mission h2,
+  .cause h2 {
+    font-size: 24px;
+  }
+
+  .about h2 {
+    font-size: 22px;
+  }
+
+  .about p {
+    font-size: 16px;
+  }
+
+  .cause img {
+    height: auto;
+    width: 100%;
+  }
+
+  .price {
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+  }
+
+  .about button {
+    width: 100%;
+    padding: 15px 0;
+  }
+}
