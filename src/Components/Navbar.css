@@ -79,6 +79,9 @@ body {
   
 /* Tablet screens (768px and below) */
 @media (max-width: 768px) {
+  .header{
+    position: sticky;
+  }
     .hamburger {
       display: flex;
     }
@@ -118,7 +121,11 @@ body {
   }
 
   /* Mobile screens (480px and below) */
+
   @media (max-width: 480px) {
+    .header{
+      position: sticky;
+    }
     .header {
       padding: 15px 20px;
       flex-wrap: wrap;
