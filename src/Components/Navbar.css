@@ -120,7 +120,7 @@ body {
   /* Mobile screens (480px and below) */
   @media (max-width: 480px) {
     .header {
-      padding: 12px 15px;
+      padding: 15px 20px;
       flex-wrap: wrap;
     }
   
