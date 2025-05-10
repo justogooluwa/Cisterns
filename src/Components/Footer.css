@@ -111,4 +111,48 @@
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     margin-top: 30px;
   }
-  
+  /* Medium screens (tablets) */
+@media (max-width: 991px) {
+  .footer {
+    padding: 80px 60px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+  }
+
+  .footer-column {
+    max-width: 100%;
+  }
+}
+
+/* Small screens (phones) */
+@media (max-width: 576px) {
+  .footer {
+    padding: 60px 30px;
+  }
+
+  .footer-logo h1,
+  .footer-column h3,
+  .footer-column p,
+  .footer-column a,
+  .footer-bottom {
+    font-size: 16px;
+  }
+
+  .newsletter-input {
+    flex-direction: column;
+  }
+
+  .newsletter-input input,
+  .newsletter-input button {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .newsletter-input button {
+    margin-top: 10px;
+  }
+}
