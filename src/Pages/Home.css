@@ -334,4 +334,7 @@
     width: 100%;
     padding: 15px 0;
   }
+  .about h2{
+    font-size: 22px;
+  }
 }
